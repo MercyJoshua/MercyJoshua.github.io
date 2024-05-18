@@ -296,3 +296,20 @@ footer{
   .btn-show-all {
       margin-top: 1rem;
   }
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #546e7a;  
+    font-size: 40px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+    color: #263238 ;  
+}
