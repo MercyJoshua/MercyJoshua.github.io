@@ -1,0 +1,298 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-image: linear-gradient(to right, #bdbdbd, #263238);
+  color: #fafafa;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+nav{
+   background-image: linear-gradient(to right, #bdbdbd, #263238);
+  color: #fafafa;
+  height: 10%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+main {
+background-image: url('background.jpg');
+
+background-size: cover;
+background-position: center;
+height: 70vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.container{
+  height: 150px;
+  width: 300px;
+  background-color: #263238;
+  margin-left: 250px;
+  color: #fafafa;
+}
+.projects{
+   background-color: #263238;
+  height: 80vh;
+  width: 100vw;
+}
+
+.hero {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fafafa;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+footer {
+  background-image: linear-gradient(to right, #bdbdbd, #263238);
+text-align: center;
+padding: 20px;
+height: 30px;
+/* margin-top: auto; */
+margin-bottom: 20px;
+}
+
+
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 70vh;
+  width: 100%;
+  margin: 10px;
+}
+
+.about-card {
+  color: #fafafa;
+  height: 70%;
+  width: 80%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-cardone {
+  max-width: 100%;
+  border-radius: 10px;
+  background-image: url('./images/picture.avif');
+  height: 400px;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ /* SERVICES */
+.services {
+  padding: 50px;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.service-slide {
+  display: none;
+}
+
+.service-slide img {
+  width: 50%;
+  height: 50%;
+  height: auto;
+  margin-left: 200px;
+}
+
+.service-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.fade {
+  animation: fade 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Styles for Contact Us Page */
+
+.contact-form {
+  padding: 50px;
+  margin-left: 380px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fafafa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #607d8b;
+}
+
+footer{
+  color: #fafafa;
+}
+.about-card {
+  border-radius: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 100px;
+}
+
+
+  .project-tile {
+      transition: transform 0.2s;
+  }
+
+  .project-tile:hover {
+      transform: translateY(-5px);
+  }
+
+  .project-image {
+      width: 100%;
+      height: auto;
+  }
+
+  .code {
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  .btn-show-all {
+      margin-top: 1rem;
+  }
